@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Resolvendo Bhaskara</h1>
+    <button onclick="clique()">Calcular</button>
+    <script>
+        function clique(){
+            var a = parseFloat(window.prompt('Qual é o valor de A?'))
+            var b = parseFloat(window.prompt('Qual é o valor de B?'))
+             var c = parseFloat(window.prompt(window.prompt('Qual é o valor de C?'))
+             var res = (b**2)-4*a*c
+             document.write(`<h2>Resolvendo Bhaskara</h2> <p>A equação atual é ${a}x^2 + ${b}x + ${c} = 0 </p> <p>O valor calculado foi ${res}`)
+        }
+    </script>
+    
+</body>
+</html>
